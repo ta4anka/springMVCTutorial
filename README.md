@@ -14,3 +14,8 @@ in **web.xml:**
   3. Configure Spring MVC View Resolver
   
   Create simple HomeController and view
+  
+  
+  **Spring MVC Architecture** [link to original](https://www.java4coding.com/contents/spring/08springMVCArchitecture.html)
+  
+  ![pic](https://lh3.googleusercontent.com/GiPjSef_P1PtX_rpPbN_IKJj_0o_GQCFBVg3bw6W9kP87RsfvFfncrpCRYVPgZVQiwc83n3pmXt2mZdd1ITDwG6EDhpoETXPiSSf7xHh_TTWZimuKsKThzTe1mSYn3ixiqYQZoVlklpsXg22CFnKTLBR8b_dne8BgqFIGr2DZDEJnq_s7Iz7C7BAt0WxOEurYP9eUiVcTlYpub5xwqMNv-PVCDnG6ibA2ieb2OoWVeFO5bxolW-fiEiwL_8svady64p9PgzV1kO_FjyeFKkdYvdYTVCQc7YIu_Yz8xtE8UiGeIxGtvljHV73fULZCpn-MTcaWc3mzmp79lqXuTpK_NzjKmzE89p8ZxHbShBd5YMzfe5h9ZPMgllX37-H5CWJNQk-QbDi65WFWcfjG3lTTcxjycJcVlsWm7HHfCCrK5O_Lj4QBgXA_ygk87n64MYQRekfjAWpVuxTwXVfwp0_qVD2nJ5OIM5XbUBkM-PBatwKK4Fk4TSgui0yz9CmRhNX9SZRnka51Yg-Bpdx7fXyr_aF3vQ8Bz3zuNa-yUNTo--UkNwzE9MXXbQGIjrM1qLW044_u1glwPpT_jpL8OLqbwphRAE2bMShKiI48i1p5ylTAWE-VtFpEUAeHJ4nWim8bW3ezcE8Z8pqEsaZ_oHC0mdtAg0WBA=w1500-h662-no)
