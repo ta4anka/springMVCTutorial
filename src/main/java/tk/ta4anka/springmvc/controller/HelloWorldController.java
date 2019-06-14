@@ -45,7 +45,7 @@ public class HelloWorldController {
 
     //a new version of the previous method  by using @RequestParam
     @RequestMapping("/processFormVersion3")
-    public String addDataToModelVersionThree(@RequestParam("userName") String theUserName, Model model){   // 'javax.servlet-api' have  to be added to pom.xml
+    public String addDataToModelVersionThree(@RequestParam("userName") String theUserName, Model model){
 
 
 
