@@ -1,14 +1,12 @@
-[branch_1](https://github.com/ta4anka/springMVCTutorial/tree/branch_1):
+[branch_2 - Reading HTML Form data](https://github.com/ta4anka/springMVCTutorial/tree/branch_2):
 
-in **web.xml:**
+ 1. Added **HelloWorldController** with two methods:
+  * a controller method to show the initial HTML form;
+  * a controller method to process the HTML form
 
-  1.  Configure Spring DispatcherServlet
-  2.  Set up URL mappings to Spring MVC Dispatcher Servlet
+ 2. Added 2 jsp:
+  * **helloworld-form.jsp** with the html form
+  * **helloworld.jsp** - the page after _'submit'_
   
- in **mvc-dispatcher-servlet.xml:**
- 
-  1. Add support for Spring component scanning
-  2.  Add support for conversion, formatting and validation
-  3. Configure Spring MVC View Resolver
+
   
-  Create simple HomeController and view
