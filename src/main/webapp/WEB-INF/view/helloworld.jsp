@@ -14,6 +14,8 @@
 Hello, Spring MVC
 <br>
 User name: ${param.userName}    <!--"userName" it's from form: name="userName"-->
+<br>
+The message: ${myMessage} <!--retrive the data from Model model(HelloWorldController)-->
 
 </body>
 </html>

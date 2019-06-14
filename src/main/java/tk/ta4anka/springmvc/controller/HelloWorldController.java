@@ -2,7 +2,10 @@ package tk.ta4anka.springmvc.controller;
 
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class HelloWorldController {
@@ -14,9 +17,28 @@ public class HelloWorldController {
         return "helloworld-form";
     }
 
-//    a controller method to process the HTML form
+    //a controller method to process the HTML form
     @RequestMapping("/processForm")
     public String processForm(){
+        return "helloworld";
+    }
+
+    //a new controller method to read form data and add data to the model
+
+    @RequestMapping("/processFormVersion2")
+    public String addDataToModel(HttpServletRequest request, Model model){   // 'javax.servlet-api' have  to be added to pom.xml
+
+        // read the request parameter from the HTML form
+        String theUserName = request.getParameter("userName");
+
+        // convert the data
+        theUserName = theUserName.toUpperCase();
+
+        // create the message
+        String result = "Hi! " + theUserName;
+
+        // add message to the model
+        model.addAttribute("myMessage", result);
         return "helloworld";
     }
 }

@@ -11,7 +11,7 @@
     <title>show Form</title>
 </head>
 <body>
-<form action="processForm" method = "GET">
+<form action="processFormVersion2" method = "GET">
     <input type="text" name="userName" placeholder="What's your name,stranger?">
     <input type="submit">
 
