@@ -1,11 +1,6 @@
-[branch_5 - Spring MVC Form Tag - Text Field](https://github.com/ta4anka/springMVCTutorial/tree/branch_5):
+[branch_6 - Spring MVC Form Tag - Drop-Down Lists](https://github.com/ta4anka/springMVCTutorial/tree/branch_6):
 
-1. Created model --> **Student**
-
-2. Created controller --> **StudentController** with two methods:
- * for showing form;
- * for processing form;
-
-3. Created HTML form --> **student-form.jsp**
-4. Create confirmation page --> **student-confirmation.jsp**
+1. Updated model - **Student**- (added new property and HashMap with data in constructor for database simulation)
+2. Updated HTML form  - **student-form.jsp**(added _form:options items="..."_)
+3. Updated confirmation page - **student-confirmation.jsp**
  
