@@ -1,6 +1,6 @@
 [branch_1](https://github.com/ta4anka/springMVCTutorial/tree/branch_1):
 
-![Flow of Spring MVC](folderInfo/Flow of mvc pattern.png)
+![Flow of Spring MVC](folderInfo/Flow.png)
 
 in **web.xml:**
 
