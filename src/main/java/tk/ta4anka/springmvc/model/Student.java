@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -16,7 +15,10 @@ public class Student {
     private String firstName;
     private String lastName;
     private String country;
-Map <String, String> countryOptions;
+    private Map <String, String> countryOptions;
+
+    private String favoriteLanguage;
+    private String[] operatingSystems;
 
     public Student (){
          countryOptions = new LinkedHashMap<>();
