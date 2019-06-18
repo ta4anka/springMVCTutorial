@@ -2,6 +2,8 @@
 
 1. Added the new model - **"Customer"**  with some validation rules( _@NotNull_ and _@Size_).
 2. Added the HTML form - **"customer-form.jsp"**
-3. Performed validation in the Controller class - **CustomerController**
+3. Performed validation in the Controller class - **CustomerController**:
+ * for Removing leading and trailing white space was used pre-processing code with _@InitBinder._
 4. Created the new confirmation page - **"customer-confirmation.jsp"**.
+5. Added 
  
