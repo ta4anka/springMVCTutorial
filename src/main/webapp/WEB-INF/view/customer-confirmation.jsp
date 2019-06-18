@@ -1,23 +1,17 @@
 <%--
   Created by IntelliJ IDEA.
   User: maya
-  Date: 14.06.19
-  Time: 0:20
+  Date: 18.06.19
+  Time: 12:01
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Customer Confirmation</title>
 </head>
 <body>
-<h1>Hello, Spring MVC</h1>
-<a href="showForm">show Form</a>
-
-<a href="/student/showForm">Student form</a>
-<br><br>
-<a href="/customer/showForm">Customer form</a>
-
-
+ The customer is confirmed:  ${customer.firstName}  ${customer.lastName}
 </body>
 </html>
